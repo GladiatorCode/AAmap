@@ -1,0 +1,9 @@
+{
+  "width": 16384,
+  "height": 16384,
+  "tileSize": 512,
+  "maxLevel": 5,
+  "minLevel": 0,
+  "tileUrl": "/tiles/{level}/{col}_{row}.jpg",
+  "format": "jpg"
+}

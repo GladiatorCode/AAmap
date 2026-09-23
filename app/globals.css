@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --background: #c7b873;
+  --foreground: #0f172a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Prevent the browser from "picking up" map tiles as draggable images. */
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+button,
+input {
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+}
